@@ -10,10 +10,12 @@ import weka.classifiers.trees.J48;
  * Test class for running WEKAClassificationModelBuilder.
  */
 public class WekaClassificationModelBuilderExample {
-	static final String FILENAME = "../dataset-10-JSI_sigfox_20161124.arff";
-	static final String OUTFILENAME = "../output";
-	static final List<String> UNWANTEDATTRIBUTES = 
-		Arrays.asList("prr", "seq", "received", "attenuator", "link_num", "experiment_num", "pga_gain");
+	//static final String FILENAME = "../dataset-10-JSI_sigfox_20161124.arff";
+	static final String FILENAME = "../../featureGenerator/output/output_stage2.csv";
+	static final String OUTFILENAME = "../output/";
+	static final List<String> UNWANTEDATTRIBUTES = Arrays.asList();
+	//static final List<String> UNWANTEDATTRIBUTES = 
+	//	Arrays.asList("prr", "seq", "received", "attenuator", "link_num", "experiment_num", "pga_gain");
 
 	/**
 	 * Main method for testing WekaClassificationModelBuilder.

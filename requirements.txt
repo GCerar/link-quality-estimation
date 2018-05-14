@@ -1,0 +1,7 @@
+# These are Python requirements.
+# Install them using pip install -r requirements.txt
+numpy
+scipy
+pandas
+matplotlib
+sklearn
