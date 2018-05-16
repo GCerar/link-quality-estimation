@@ -303,7 +303,7 @@ public class WekaClassificationModelBuilder {
 					writer.println("Best: " + topTreeFeature);
 					writer.println(confusionMatrix);
 					writer.println(summary);
-					writer.println(cls);
+					//writer.println(cls);
 					writer.close();
 				} catch (Exception e) {
 					e.printStackTrace(System.out);
